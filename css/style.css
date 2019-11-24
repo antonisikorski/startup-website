@@ -1,0 +1,56 @@
+/* Importing Google fonts */
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+/* Importing component files */
+
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/card.css");
+
+/* General style rules for fonts and colors */
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    margin: 0px;
+    color: #1b1e2b;
+}
+
+h1 {
+    color: #6b5aed;
+}
+
+h2 {
+    font-size: 52px;
+    font-weight: 100;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0;
+}
+
+.list-inline li {
+    display: inline;
+    padding: 10px;
+}
+
+.list-inline li i {
+    font-size: 30px;
+    color: rgb(71, 71, 71);
+}
+
+.list-inline li i:hover {
+    color: #6b5aed;
+}
